@@ -4,6 +4,9 @@
 This analysis examines a credit card dataset from LendingClub, a peer-to-peer lending services company. Due to the inherent imbalance of low- vs high-risk lending, a variety of resampling and ensembling techniques are used as part of a logistic regression. Each technique is then evaluated and compared for best performance.
 
 ## Results
+
+![results](https://user-images.githubusercontent.com/90879979/151722847-cbeb0318-36f1-4a14-a057-8166daef8538.png)
+
 - The undersampling model was the least accurate overall, with an accuracy score of 0.544.
 - The Easy Ensemble AdaBoost Classifier was the most accurate, with an accuracy score of 0.925.
 - The remaining four models were all moderately accurate, with accuracy scores in the range of 0.6 - 0.7.
